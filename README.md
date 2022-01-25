@@ -8,7 +8,7 @@ How to build quik Engine in linux:
 * Install bundle `sx init git@github.com:gopro/gopro-quik-bundle-conf.git`
 * Subscribe to quik engine `sx topic --subscribe quik-engine`
 * Build quik `sx update` after build success you can test them by running below command to generate mp4 file
-`source sx/activate.sh` and `crafter render ./stupeflix_crafter/craftests/craftests/tests/themes/test_regression_all_themes.py adrenaline_complete_large -o test.mp4`
+`source ./.sx/activate.sh` and `crafter render ./stupeflix_crafter/craftests/craftests/tests/themes/test_regression_all_themes.py adrenaline_complete_large -o test.mp4`
   It will generate test.mp4 file if the test works.
   
 More information on set up quik engine https://wiki-dev.gopro.com/pages/viewpage.action?pageId=171024727
@@ -23,6 +23,6 @@ How to build quik Engine in linux:
 * Install bundle `sx init git@github.com:gopro/gopro-quik-bundle-conf.git`
 * Subscribe to quik engine `sx topic --subscribe quik-engine`
 * Build quik `sx update` after build success you can test them by running below command to generate mp4 file
-  `source sx/activate.sh` and `crafter render ./stupeflix_crafter/craftests/craftests/tests/themes/test_regression_all_themes.py adrenaline_complete_large -o test.mp4`
+  `source ./.sx/activate.sh` and `crafter render ./stupeflix_crafter/craftests/craftests/tests/themes/test_regression_all_themes.py adrenaline_complete_large -o test.mp4`
   It will generate test.mp4 file if the test works.
 
